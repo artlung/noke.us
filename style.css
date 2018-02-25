@@ -1,0 +1,118 @@
+/* */
+body
+{
+	background-color: #999;
+	font-family: sans-serif;
+	margin: 0px 0px;
+	text-align: center;
+	color: #333;
+}
+
+h1
+{
+	font-size: 1.2em;
+color: #66f;
+padding:0.4em;
+text-align: center;
+border-bottom: 3px double #66f;
+text-transform: uppercase;
+text-shadow: 1px 1px #ccc, 1px 1px #000;
+}
+
+h2
+{
+	font-size: 1.0em;
+background-color: #66f;
+padding: 0.2em;
+color: #fff;
+text-shadow: -1px 0 #00c, 0 1px #00c,
+1px 0 #00c, 0 -1px #00c;
+letter-spacing: 2px;
+}
+hr {
+display: none;
+}
+
+ul li,p
+{
+	font-size: 0.9em;
+	line-height: 1.5em;
+}
+
+ul
+{
+line-height: 1.5em;
+margin-left: 0;
+padding-left: 0.3em;
+}
+
+ul li
+{
+list-style-type: none;
+line-height: 1.5em;
+}
+ul li ul
+{
+list-style-type: disc;
+padding-left: 2em;
+}
+
+#container
+{
+	width: 800px;
+	text-align: left;
+	margin: 0px auto;
+	background-color: #fff;
+	border-width: 0 1px 1px 0;
+	border-color: #666;
+	border-style: solid;
+}
+
+#header
+{
+	background-color: #ccc;
+	padding: 1em;
+}
+
+
+
+#header h1
+{
+	margin: 0;
+	color: #c00;
+	font-family: Georgia, serif;
+	font-size: 1.4em;
+}
+
+
+#content
+{
+	padding: 1em;
+}
+
+#footer
+{
+	background-color: #ccc;
+	padding: 1em;
+	font-size: 0.7em;
+	min-height: 120px;
+}
+
+#content a {
+border-bottom: 1px dotted #00c;
+text-decoration: none;
+color: #00c;
+}
+
+#content a:hover {
+border-bottom: 1px solid #00f;
+text-decoration: none;
+color: #00f;
+background-color: yellow;
+}
+
+.gAd160x90 {
+	width: 160px;
+	height: 90px;
+	float: right;
+}
