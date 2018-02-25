@@ -1,5 +1,5 @@
 # t.noke.us
-A website to track events in and adjacent to Roanoke Virginia. Can you help?
+A website to track tech vents in and adjacent to Roanoke Virginia. Can you help?
 
 In [2010](https://twitter.com/artlung/status/12178230668693505) I created a website to track tech events in Roanoke Virginia. I put it at [t.noke.us)[http://t.noke.us/).
 
