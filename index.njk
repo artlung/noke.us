@@ -1,5 +1,5 @@
 ---
-title: Noke.us
+title: Roanoke Web Tech Resources
 ---
 <!DOCTYPE html>
 <html>
@@ -10,73 +10,70 @@ title: Noke.us
 </head>
 <body>
 <div class="container-fluid">
+	<div class="row">
+		<div class="col">
+			<h1>
+			{{ title }}
+			</h1>
+		</div>
+	</div>
 <div class="row">
-<div class="col">
-<h1>
-Roanoke Web Tech Resources
-</h1>
-</div>
-</div>
-<div class="row">
-<div class="col">
+	<div class="col">
 
-<p><small>Being a list of programming, database, writing, multimedia, video, games, social media,
-mobile groups in Roanoke, Virginia. Or within striking distance of Roanoke.
-To submit your group or event contact Joe Crawford on twitter <a href="http://twitter.com/?status=%40artlung%20RE%20Roanoke%20tech:">@artlung</a>
-or email <a href="mailto:joe@artlung.com">joe@artlung.com</a>.</small>
-</p>
+		<p><small>Being a list of programming, database, writing, multimedia, video, games, social media,
+		mobile groups in Roanoke, Virginia. Or within striking distance of Roanoke.
+		To submit your group or event contact Joe Crawford on twitter <a href="http://twitter.com/?status=%40artlung%20RE%20Roanoke%20tech:">@artlung</a>
+		or email <a href="mailto:joe@artlung.com">joe@artlung.com</a>.</small>
+		</p>
 
-<div id="holder">
-	<p><small>
-		Covers {{collections.regions.length}} areas:
-		{%for city in collections.regions %}
-			<a href="#{{city.data.symbol}}" class="badge badge-success">{{city.data.name}}</a>
+		<p><small>
+			Covers {{collections.regions.length}} areas:
+			{%for city in collections.regions %}
+				<a href="#{{city.data.symbol}}" class="badge badge-success">{{city.data.name}}</a>
+			{%endfor%}
+		</small></p>
+
+	</div>
+	<div class="col">
+
+		{%for item in collections.regions %}
+			<div class="card">
+				<div class="card-header">
+					<h2 class="card-title">{{item.data.name}} 
+						{%if item.data.milesAway %}
+						<small class="text-muted">({{item.data.milesAway}} miles away)</small>
+						{%endif%}
+
+						<small>
+							<a name="{{item.data.symbol}}" href="#{{item.data.symbol}}" class="badge">#</a>
+						</small>
+					</h2>
+				</div>
+				<div class="card-body">
+
+					{{ item.templateContent | safe}}
+
+				</div>
+				  <div class="card-footer text-muted">
+					<a href="#top" title="Back to top" class="btn btn-secondary btn-sm" >to top &#8593;</a>
+				  </div>
+			</div>
+
+			<br /><br />
 		{%endfor%}
-	</small></p>
-</div>
-
-</div>
-<div class="col">
-
-
-{%for item in collections.regions %}
-<div class="card">
-	<div class="card-header">
-		<h2 class="card-title">{{item.data.name}} 
-			{%if item.data.milesAway %}
-			<small class="text-muted">({{item.data.milesAway}} miles away)</small>
-			{%endif%}
-
-			<small>
-				<a name="{{item.data.symbol}}" href="#{{item.data.symbol}}" class="badge">#</a>
-			</small>
-		</h2>
-	</div>
-	<div class="card-body">
-
-		{{ item.templateContent | safe}}
 
 	</div>
-	  <div class="card-footer text-muted">
-		<a href="#top" title="Back to top" class="btn btn-secondary btn-sm" >to top &#8593;</a>
-	  </div>
-</div>
 
-<br /><br />
-{%endfor%}
+	<div class="col">
 
-</div>
+		<h4>Now on GitHub</h4>
 
-<div class="col">
+		{%for item in collections.meta %}
 
-<h4>Now on GitHub</h4>
+			{{ item.templateContent | safe }}
 
-{%for item in collections.meta %}
-
-{{ item.templateContent | safe }}
-
-{%endfor%}
-</div>
+		{%endfor%}
+	</div>
 
 </div>
 
