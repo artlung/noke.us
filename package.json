@@ -1,0 +1,26 @@
+{
+  "name": "noke.us",
+  "version": "1.0.0",
+  "description": "A website to track tech vents in and adjacent to Roanoke Virginia. Can you help?",
+  "main": ".eleventy.js",
+  "scripts": {
+    "serve": "npx eleventy --serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/artlung/noke.us.git"
+  },
+  "keywords": [],
+  "author": "Joe Crawford <joe@artlung.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/artlung/noke.us/issues"
+  },
+  "homepage": "https://github.com/artlung/noke.us#readme",
+  "dependencies": {
+    "@11ty/eleventy": "^0.5.2",
+    "gray-matter": "^4.0.2",
+    "html-minifier": "^3.5.20",
+    "javascript-stringify": "^2.0.0"
+  }
+}
