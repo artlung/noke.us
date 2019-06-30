@@ -1,0 +1,79 @@
+---
+title: Noke.us
+---
+<!DOCTYPE html>
+<html>
+<head>
+	<title>{{ title }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+<div class="container">
+<div class="row">
+<div class="">
+
+<h1>
+Roanoke Web Tech Resources
+</h1>
+
+<p><small>Being a list of programming, database, writing, multimedia, video, games, social media,
+mobile groups in Roanoke, Virginia. Or within striking distance of Roanoke.
+To submit your group or event contact Joe Crawford on twitter <a href="http://twitter.com/?status=%40artlung%20RE%20Roanoke%20tech:">@artlung</a>
+or email <a href="mailto:joe@artlung.com">joe@artlung.com</a>.</small>
+</p>
+
+<div id="holder">
+	<p><small>
+		This site covers {{collections.cities.length}} areas, the closer to Roanoke,
+		the more reliable the data:
+		{%for city in collections.cities|sort(attribute=miles_away) %}
+			<a href="#{{city.data.symbol}}">{{city.data.name}}</a>
+		{%endfor%}
+	</small></p>
+</div>
+
+{%for elem in collections.cities|sort(attribute=miles_away) %}
+
+	<h2>{{elem.data.name}} 
+		{%if elem.data.miles_away %}
+		<small class="text-muted">({{elem.data.miles_away}} miles away)</small>
+		{%endif%}
+		<a name="{{elem.data.symbol}}"></a>
+	</h2>
+
+	{{ elem.templateContent | safe}}
+
+	<p><a href="#top" title="Back to top" class="btn btn-secondary btn-sm" >to top &#8593;</a></p>
+	<hr />
+
+{%endfor%}
+
+<!--
+//$sites = file_get_contents('resource.txt');
+//$sites = preg_replace("/(https?:\/\/[^\n\r]+)/",'<a href="\\1">\\1</a>',$sites);
+//print Markdown($sites);
+-->
+
+
+
+
+</div>
+
+<h4>Now on GitHub</h4>
+
+<div>
+{%for elem in collections.meta %}
+
+{{ elem.templateContent | safe }}
+
+
+{%endfor%}
+</div>
+
+</div>
+
+</div>
+</div>
+</body>
+</html>
