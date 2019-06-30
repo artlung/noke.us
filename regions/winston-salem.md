@@ -1,7 +1,7 @@
 ---
-tags: cities
+tags: ['cities']
 name: Winston-Salem 
-miles_away: 105
+milesAway: 105
 symbol: gso
 
 ---

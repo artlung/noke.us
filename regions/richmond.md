@@ -1,7 +1,7 @@
 ---
-tags: cities
+tags: ['cities']
 name: Richmond 
-miles_away: 190
+milesAway: 190
 symbol: ric
 ---
 * **WordCampVA**

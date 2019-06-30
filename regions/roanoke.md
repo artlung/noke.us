@@ -1,8 +1,8 @@
 ---
-tags: cities
+tags: ['cities']
 name: Roanoke
 symbol: roa
-miles: 0
+milesAway: 0
 layout: city.njk
 ---
 * **Roanoke .NET Users Group**

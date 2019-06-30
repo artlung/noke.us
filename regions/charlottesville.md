@@ -1,7 +1,7 @@
 ---
-tags: cities
+tags: ['cities']
 name: Charlottesville 
-miles_away: 120
+milesAway: 120
 symbol: cho
 ---
 

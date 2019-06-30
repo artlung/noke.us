@@ -1,7 +1,7 @@
 ---
-tags: cities
+tags: ['cities']
 name: Blacksburg 
-miles_away: 36
+milesAway: 36
 symbol: bcb
 ---
 * **blacksburg.rb (Ruby Users Group)**

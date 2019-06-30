@@ -1,7 +1,7 @@
 ---
-tags: cities
+tags: ['cities']
 name: Harrisonburg 
-miles_away: 110
+milesAway: 110
 symbol: jmu
 ---
 * **Shenandoah Ruby Users Group**

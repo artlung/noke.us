@@ -1,8 +1,8 @@
 ---
-tags: cities
+tags: ['cities']
 name: Lebanon
 symbol: x-lbn
-miles_away: 156
+milesAway: 156
 ---
 * **GeeksSWVA**
   * site: <http://www.geekswva.com/>

@@ -1,7 +1,7 @@
 ---
-tags: cities
+tags: ['cities']
 name: North Carolina Triangle 
-miles_away: 170
+milesAway: 170
 symbol: rdu
 ---
 

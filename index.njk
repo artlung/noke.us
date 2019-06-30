@@ -9,13 +9,16 @@ title: Noke.us
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
 <body>
-<div class="container">
+<div class="container-fluid">
 <div class="row">
-<div class="">
-
+<div class="col">
 <h1>
 Roanoke Web Tech Resources
 </h1>
+</div>
+</div>
+<div class="row">
+<div class="col">
 
 <p><small>Being a list of programming, database, writing, multimedia, video, games, social media,
 mobile groups in Roanoke, Virginia. Or within striking distance of Roanoke.
@@ -25,48 +28,52 @@ or email <a href="mailto:joe@artlung.com">joe@artlung.com</a>.</small>
 
 <div id="holder">
 	<p><small>
-		This site covers {{collections.cities.length}} areas, the closer to Roanoke,
-		the more reliable the data:
-		{%for city in collections.cities|sort(attribute=miles_away) %}
-			<a href="#{{city.data.symbol}}">{{city.data.name}}</a>
+		Covers {{collections.regions.length}} areas:
+		{%for city in collections.regions %}
+			<a href="#{{city.data.symbol}}" class="badge badge-success">{{city.data.name}}</a>
 		{%endfor%}
 	</small></p>
 </div>
 
-{%for elem in collections.cities|sort(attribute=miles_away) %}
+</div>
+<div class="col">
 
-	<h2>{{elem.data.name}} 
-		{%if elem.data.miles_away %}
-		<small class="text-muted">({{elem.data.miles_away}} miles away)</small>
-		{%endif%}
-		<a name="{{elem.data.symbol}}"></a>
-	</h2>
 
-	{{ elem.templateContent | safe}}
+{%for item in collections.regions %}
+<div class="card">
+	<div class="card-header">
+		<h2 class="card-title">{{item.data.name}} 
+			{%if item.data.milesAway %}
+			<small class="text-muted">({{item.data.milesAway}} miles away)</small>
+			{%endif%}
 
-	<p><a href="#top" title="Back to top" class="btn btn-secondary btn-sm" >to top &#8593;</a></p>
-	<hr />
+			<small>
+				<a name="{{item.data.symbol}}" href="#{{item.data.symbol}}" class="badge">#</a>
+			</small>
+		</h2>
+	</div>
+	<div class="card-body">
 
+		{{ item.templateContent | safe}}
+
+	</div>
+	  <div class="card-footer text-muted">
+		<a href="#top" title="Back to top" class="btn btn-secondary btn-sm" >to top &#8593;</a>
+	  </div>
+</div>
+
+<br /><br />
 {%endfor%}
-
-<!--
-//$sites = file_get_contents('resource.txt');
-//$sites = preg_replace("/(https?:\/\/[^\n\r]+)/",'<a href="\\1">\\1</a>',$sites);
-//print Markdown($sites);
--->
-
-
-
 
 </div>
 
+<div class="col">
+
 <h4>Now on GitHub</h4>
 
-<div>
-{%for elem in collections.meta %}
+{%for item in collections.meta %}
 
-{{ elem.templateContent | safe }}
-
+{{ item.templateContent | safe }}
 
 {%endfor%}
 </div>

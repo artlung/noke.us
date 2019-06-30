@@ -1,9 +1,8 @@
 ---
-tags: cities
+tags: ['cities']
 name: Baltimore
 symbol: bwi
-miles_away: 278
-
+milesAway: 278
 ---
 
 

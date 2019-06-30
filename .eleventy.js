@@ -16,14 +16,16 @@ module.exports = function(eleventyConfig) {
         return content;
     });
 
-    eleventyConfig.addNunjucksFilter("dump", function(value) {
-        return JSON.stringify(value);
-    });
 
-    // eleventyConfig.setFrontMatterParsingOptions({
-    //     excerpt: true,
-    //     excerpt_separator: '---' // Optional
-    // });
+    eleventyConfig.addCollection("regions", (collection) =>
+    collection.getFilteredByTag("cities").sort((a, b) => {
+      console.log(parseInt(a.data.milesAway, 10));
+
+      if (parseInt(a.data.milesAway) > parseInt(b.data.milesAway)) return 1;
+      else if (parseInt(a.data.milesAway) < parseInt(b.data.milesAway)) return -1;
+      else return 0;
+    })
+  );
 
     return {
         markdownTemplateEngine: "njk",

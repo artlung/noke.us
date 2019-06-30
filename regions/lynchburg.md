@@ -1,7 +1,7 @@
 ---
-tags: cities
+tags: ['cities']
 name: Lynchburg
-miles_away: 53
+milesAway: 53
 symbol: lyh
 layout: city.njk
 ---

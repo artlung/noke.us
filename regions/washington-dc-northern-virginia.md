@@ -1,7 +1,7 @@
 ---
-tags: cities
+tags: ['cities']
 name: Washington DC / Northern Virginia 
-miles_away: 240
+milesAway: 240
 symbol: dca
 ---
 * **BarCamp DC**

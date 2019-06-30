@@ -1,7 +1,7 @@
 ---
-tags: cities
+tags: ['cities']
 name: Charlotte 
-miles_away: 198
+milesAway: 198
 symbol: clt
 ---
 * **Charlotte JUG (Java/J2EE)**
