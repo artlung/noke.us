@@ -1,6 +1,6 @@
 {
   "name": "noke.us",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A website to track tech vents in and adjacent to Roanoke Virginia. Can you help?",
   "main": ".eleventy.js",
   "scripts": {
@@ -18,9 +18,11 @@
   },
   "homepage": "https://github.com/artlung/noke.us#readme",
   "dependencies": {
-    "@11ty/eleventy": "^0.5.2",
     "gray-matter": "^4.0.2",
     "html-minifier": "^3.5.20",
     "javascript-stringify": "^2.0.0"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^0.5.4"
   }
 }
