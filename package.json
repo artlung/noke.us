@@ -20,7 +20,8 @@
   "dependencies": {
     "gray-matter": "^4.0.2",
     "html-minifier": "^3.5.20",
-    "javascript-stringify": "^2.0.0"
+    "javascript-stringify": "^2.0.0",
+    "axios": ">=0.21.1"
   },
   "devDependencies": {
     "@11ty/eleventy": "^0.5.4"
