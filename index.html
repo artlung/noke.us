@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+<head>
+    <title>Roanoke Users Groups (and within a radius of Roanoke)</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+<body>
+<header>
+    <h1>Roanoke Web Tech Resources</h1>
+    <p>
+        <small>Being a list of programming, database, writing, multimedia, video, games, social media, mobile groups in Roanoke, Virginia. Or within striking distance of Roanoke.</small>
+    </p>
+</header>
+
+<nav>
+    <!-- iterate over every region with link like this: -->
+    <ul>
+        {% for region in regions %}
+            <li>
+                <a href="#{{ region.id }}" class="badge badge-success">{{ region.name }}</a>
+            </li>
+        {% endfor %}
+</nav>
+
+<article>
+    {% for region in regions %}
+        <section>
+            <h2 id="{{ region.id }}">{{ region.name }}</h2>
+            <ul>
+                {% for group in region.groups %}
+                    <li>
+                        <strong>{{ group.name }}</strong>
+                        <ul>
+                            <li>
+                                site:
+                                <a href="{{ group.url }}">{{ group.url }}</a>
+                            </li>
+                            <li>
+                                note:
+                                <em>{{ group.note }}</em>
+                            </li>
+                        </ul>
+                    </li>
+                {% endfor %}
+            </ul>
+        </section>
+    {% endfor %}
+</article>
+<footer>
+    Also on Github at <a href="https://github.com/artlung/noke.us">artlung/noke.us</a>
+</footer>
+
+</body>
+</html>

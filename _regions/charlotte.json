@@ -1,0 +1,62 @@
+{
+  "name": "Charlotte",
+  "milesAwayFromRoanoke": "198",
+  "symbol": "clt",
+  "Charlotte JUG (Java/J2EE)": {
+    "name": "Charlotte JUG (Java/J2EE)",
+    "otherData": {},
+    "lastUpdated": "2010-02-01T08:00:00.000Z",
+    "url": "http://www.charlottejug.org/"
+  },
+  "BarCamp CLT": {
+    "name": "BarCamp CLT",
+    "otherData": {
+      "twitter": "http://twitter.com/barcampclt"
+    },
+    "lastUpdated": "2010-02-01T08:00:00.000Z"
+  },
+  "Charlotte Oracle Users Group": {
+    "name": "Charlotte Oracle Users Group",
+    "otherData": {},
+    "lastUpdated": "2010-02-01T08:00:00.000Z",
+    "url": "http://www.cltoug.org/"
+  },
+  "Charlotte Interwebs Design Meetup": {
+    "name": "Charlotte Interwebs Design Meetup",
+    "otherData": {},
+    "lastUpdated": "2010-02-01T08:00:00.000Z",
+    "url": "http://www.meetup.com/charlotteweb/"
+  },
+  "Greater Charlotte Area Wordpress Group": {
+    "name": "Greater Charlotte Area Wordpress Group",
+    "otherData": {},
+    "lastUpdated": "2010-02-01T08:00:00.000Z",
+    "url": "http://www.meetup.com/Greater-Charlotte-Area-WordPress-Group/"
+  },
+  "Charlotte iPhone Developers Meetup": {
+    "name": "Charlotte iPhone Developers Meetup",
+    "otherData": {},
+    "lastUpdated": "2010-02-01T08:00:00.000Z",
+    "url": "http://www.meetup.com/CLTiphonedev/"
+  },
+  "CharlotteSQL: SQL Server Users Group": {
+    "name": "CharlotteSQL: SQL Server Users Group",
+    "otherData": {},
+    "lastUpdated": "2010-02-01T08:00:00.000Z",
+    "url": "http://www.charlotte-sql.org/"
+  },
+  "UNC Charlotte Drupal Users Group": {
+    "name": "UNC Charlotte Drupal Users Group",
+    "otherData": {},
+    "lastUpdated": "2010-02-01T08:00:00.000Z",
+    "url": "http://groups.drupal.org/unc-charlotte-users-group"
+  },
+  "Matthew Lefevre's List of Charlotte Area Users Groups": {
+    "name": "Matthew Lefevre's List of Charlotte Area Users Groups",
+    "otherData": {
+      "note": "excellent list of Charlotte groups"
+    },
+    "lastUpdated": "2010-02-01T08:00:00.000Z",
+    "url": "http://www.matthewlefevre.com/"
+  }
+}

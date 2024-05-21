@@ -1,0 +1,17 @@
+{
+  "name": "Harrisonburg",
+  "milesAwayFromRoanoke": "110",
+  "symbol": "jmu",
+  "Shenandoah Ruby Users Group": {
+    "name": "Shenandoah Ruby Users Group",
+    "otherData": {},
+    "lastUpdated": "2010-02-01T08:00:00.000Z",
+    "url": "http://ruby.meetup.com/128/"
+  },
+  "Shenandoah Valley Linux Users Group": {
+    "name": "Shenandoah Valley Linux Users Group",
+    "otherData": {},
+    "lastUpdated": "2010-02-01T08:00:00.000Z",
+    "url": "http://shenlug.tux.org/"
+  }
+}

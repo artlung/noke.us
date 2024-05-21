@@ -1,0 +1,59 @@
+{
+  "name": "Washington DC / Northern Virginia",
+  "milesAwayFromRoanoke": "240",
+  "symbol": "dca",
+  "BarCamp DC": {
+    "name": "BarCamp DC",
+    "otherData": {
+      "twitter": "http://twitter.com/BarcampDC"
+    },
+    "lastUpdated": "2010-02-01T08:00:00.000Z",
+    "url": "http://barcampdc.org/"
+  },
+  "TEDxPotomac": {
+    "name": "TEDxPotomac",
+    "otherData": {
+      "twitter": "http://twitter.com/tedxpotomac",
+      "facebook": "http://www.facebook.com/pages/TEDxPotomac/266975834019"
+    },
+    "lastUpdated": "2010-02-01T08:00:00.000Z",
+    "url": "http://tedxpotomac.com/"
+  },
+  "Ignite DC": {
+    "name": "Ignite DC",
+    "otherData": {
+      "twitter": "http://twitter.com/ignitedc"
+    },
+    "lastUpdated": "2010-02-01T08:00:00.000Z",
+    "url": "http://www.ignite-dc.com/"
+  },
+  "WordPress DC": {
+    "name": "WordPress DC",
+    "otherData": {},
+    "lastUpdated": "2010-02-01T08:00:00.000Z",
+    "url": "http://www.meetup.com/wordpressdc/"
+  },
+  "Northern Virginia Django Users Group": {
+    "name": "Northern Virginia Django Users Group",
+    "otherData": {},
+    "lastUpdated": "2010-02-01T08:00:00.000Z",
+    "url": "http://www.meetup.com/NOVA-Django/"
+  },
+  "DC Tech Events": {
+    "name": "DC Tech Events",
+    "otherData": {
+      "note": "this looks like a very complete and current list",
+      "twitter": "http://twitter.com/dctechevents"
+    },
+    "lastUpdated": "2010-02-01T08:00:00.000Z",
+    "url": "http://www.dctechevents.com/"
+  },
+  "UX BarCamp DC": {
+    "name": "UX BarCamp DC",
+    "otherData": {
+      "twitter": "http://www.twitter.com/uxcampdc"
+    },
+    "lastUpdated": "2010-02-01T08:00:00.000Z",
+    "url": "http://uxbarcampdc.org/"
+  }
+}

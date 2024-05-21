@@ -1,0 +1,42 @@
+{
+  "name": "Charlottesville",
+  "milesAwayFromRoanoke": "120",
+  "symbol": "cho",
+  "beSwarm Charlottesville": {
+    "name": "beSwarm Charlottesville",
+    "otherData": {
+      "related": "http://barcamp.org/beSwarm1",
+      "date": "September 25, 2010"
+    },
+    "lastUpdated": "2010-02-01T08:00:00.000Z",
+    "url": "http://beswarm.org/"
+  },
+  "Social Media Club Charlottesville": {
+    "name": "Social Media Club Charlottesville",
+    "otherData": {
+      "facebook": "http://www.facebook.com/smccville",
+      "twitter": "http://twitter.com/smccville"
+    },
+    "lastUpdated": "2010-02-01T08:00:00.000Z"
+  },
+  "BarCamp Charlottesville beCamp": {
+    "name": "BarCamp Charlottesville beCamp",
+    "otherData": {
+      "date": "April 30-May 1, 2010"
+    },
+    "lastUpdated": "2010-02-01T08:00:00.000Z",
+    "url": "http://barcamp.org/beCamp"
+  },
+  "Charlottesville Python Users Group": {
+    "name": "Charlottesville Python Users Group",
+    "otherData": {},
+    "lastUpdated": "2010-02-01T08:00:00.000Z",
+    "url": "http://pycho.us"
+  },
+  "High Tech C-Ville": {
+    "name": "High Tech C-Ville",
+    "otherData": {},
+    "lastUpdated": "2010-02-01T08:00:00.000Z",
+    "url": "http://www.hightechcville.com/"
+  }
+}

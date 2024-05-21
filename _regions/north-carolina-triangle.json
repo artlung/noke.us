@@ -1,0 +1,85 @@
+{
+  "name": "North Carolina Triangle",
+  "milesAwayFromRoanoke": "170",
+  "symbol": "rdu",
+  "BarCamp RDU": {
+    "name": "BarCamp RDU",
+    "otherData": {
+      "date": "October 23, 2010"
+    },
+    "lastUpdated": "2010-02-01T08:00:00.000Z",
+    "url": "http://barcamp.org/BarCampRDU"
+  },
+  "Triangle Game Conference:": {
+    "name": "Triangle Game Conference:",
+    "otherData": {},
+    "lastUpdated": "2010-02-01T08:00:00.000Z",
+    "url": "http://www.trianglegameconference.com/"
+  },
+  "Triangle Android Meetup": {
+    "name": "Triangle Android Meetup",
+    "otherData": {
+      "twitter": "http://twitter.com/TriDroid"
+    },
+    "lastUpdated": "2010-02-01T08:00:00.000Z",
+    "url": "http://www.meetup.com/TriDroid/"
+  },
+  "Ignite Raleigh": {
+    "name": "Ignite Raleigh",
+    "otherData": {
+      "twitter": "http://twitter.com/igniteraleigh"
+    },
+    "lastUpdated": "2010-02-01T08:00:00.000Z",
+    "url": "http://www.ignitetriangle.com/"
+  },
+  "Triangle Zope and Python Users Group (TriZPUG)": {
+    "name": "Triangle Zope and Python Users Group (TriZPUG)",
+    "otherData": {},
+    "lastUpdated": "2010-02-01T08:00:00.000Z",
+    "url": "http://www.meetup.com/trizpug/"
+  },
+  "Triangle JavaScript": {
+    "name": "Triangle JavaScript",
+    "otherData": {},
+    "lastUpdated": "2010-02-01T08:00:00.000Z",
+    "url": "http://www.meetup.com/Triangle-JavaScript/"
+  },
+  "Triangle Drupal Users' Group": {
+    "name": "Triangle Drupal Users' Group",
+    "otherData": {},
+    "lastUpdated": "2010-02-01T08:00:00.000Z",
+    "url": "http://www.meetup.com/triDUG/"
+  },
+  "Triad Web Meetup": {
+    "name": "Triad Web Meetup",
+    "otherData": {},
+    "lastUpdated": "2010-02-01T08:00:00.000Z",
+    "url": "http://www.meetup.com/triadweb/"
+  },
+  "Research Triangle Park Area Technical User and Special Interest Groups": {
+    "name": "Research Triangle Park Area Technical User and Special Interest Groups",
+    "otherData": {
+      "note": "excellent list of RTP groups"
+    },
+    "lastUpdated": "2010-02-01T08:00:00.000Z",
+    "url": "http://www.pobox.com/~burnett/triangle/groups.html"
+  },
+  "Developer Day Durham": {
+    "name": "Developer Day Durham",
+    "otherData": {
+      "date": "February 27, 2010",
+      "twitter": "http://twitter.com/developer_day"
+    },
+    "lastUpdated": "2010-02-01T08:00:00.000Z",
+    "url": "http://developer-day.com/events/2010-durham.html"
+  },
+  "WWW2010 Raleigh: 19th International World Wide Web Conference": {
+    "name": "WWW2010 Raleigh: 19th International World Wide Web Conference",
+    "otherData": {
+      "twitter": "http://twitter.com/www2010/",
+      "date": "April 26-30, 2010"
+    },
+    "lastUpdated": "2010-02-01T08:00:00.000Z",
+    "url": "http://www2010.org/"
+  }
+}

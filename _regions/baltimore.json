@@ -1,0 +1,20 @@
+{
+  "name": "Baltimore",
+  "symbol": "bwi",
+  "milesAwayFromRoanoke": "278",
+  "WordCamp Midatlantic": {
+    "name": "WordCamp Midatlantic",
+    "otherData": {
+      "date": "September, 2010"
+    },
+    "lastUpdated": "2010-02-01T08:00:00.000Z",
+    "url": "http://wordcampmidatlantic.com/"
+  },
+  "BarCamp Baltimore": {
+    "name": "BarCamp Baltimore",
+    "otherData": {
+      "twitter": "http://twitter.com/BarCampBmore"
+    },
+    "lastUpdated": "2010-02-01T08:00:00.000Z"
+  }
+}

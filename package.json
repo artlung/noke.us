@@ -1,10 +1,11 @@
 {
   "name": "noke.us",
-  "version": "1.0.2",
-  "description": "A website to track tech vents in and adjacent to Roanoke Virginia. Can you help?",
+  "version": "1.0.0",
+  "description": "Mid-Atlantic Tech Event Listing",
   "main": ".eleventy.js",
   "scripts": {
-    "serve": "npx eleventy --serve"
+    "serve": "npx eleventy --serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -21,9 +22,15 @@
     "axios": ">=1.6.0",
     "gray-matter": "^4.0.2",
     "html-minifier": "^3.5.20",
-    "javascript-stringify": "^2.0.0"
+    "javascript-stringify": "^2.0.0",
+    "markdown-it": "^14.1.0"
   },
-  "devDependencies": {
-    "@11ty/eleventy": "^2.0.0"
+  "dependencies": {
+    "@11ty/eleventy": "^2.0.1",
+    "@netlify/functions": "^2.7.0",
+    "cheerio": "^1.0.0-rc.12",
+    "node-fetch": "^3.3.2",
+    "rss": "^1.2.2"
+
   }
 }

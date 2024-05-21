@@ -1,0 +1,112 @@
+{
+  "name": "Roanoke",
+  "symbol": "roa",
+  "milesAwayFromRoanoke": "0",
+  "Roanoke .NET Users Group": {
+    "name": "Roanoke .NET Users Group",
+    "otherData": {
+      "note": "regular meetings, responsive group"
+    },
+    "lastUpdated": "2010-02-01T08:00:00.000Z",
+    "url": "http://rvnug.org/"
+  },
+  "The Roanoke-Blacksburg Technology Council": {
+    "name": "The Roanoke-Blacksburg Technology Council",
+    "otherData": {
+      "note": "lots of resources here",
+      "facebook": "http://www.facebook.com/pages/NewVa-Corridor-Technology-Council/106450157678"
+    },
+    "lastUpdated": "2010-02-01T08:00:00.000Z",
+    "url": "http://www.thetechnologycouncil.com/"
+  },
+  "Roanoke SQL Server Users Group": {
+    "name": "Roanoke SQL Server Users Group",
+    "otherData": {},
+    "lastUpdated": "2010-02-01T08:00:00.000Z",
+    "url": "http://rvsqlug.sqlpass.org/"
+  },
+  "Roanoke Code Camp": {
+    "name": "Roanoke Code Camp",
+    "otherData": {
+      "call-for-speakers": "http://geekswithblogs.net/redwards/archive/2010/01/19/137542.aspx"
+    },
+    "lastUpdated": "2010-02-01T08:00:00.000Z",
+    "url": "http://rvnug.org/CodeCamp.aspx"
+  },
+  "Roanoke Unwind": {
+    "name": "Roanoke Unwind",
+    "otherData": {
+      "twitter": "http://twitter.com/rkeunwind",
+      "date": "Alternating Thursdays"
+    },
+    "lastUpdated": "2010-02-01T08:00:00.000Z",
+    "url": "http://www.rkeunwind.com/"
+  },
+  "Roanoke Blacksburg Technology Council: Peer Forums": {
+    "name": "Roanoke Blacksburg Technology Council: Peer Forums",
+    "otherData": {
+      "date": "varies",
+      "note": "Includes CEO Forum, CIO Forum, Marketing & Sales Forum, IT Professionals Forum, Software Developers Forum, Advanced Operations Forum, and Life Sciences Forum"
+    },
+    "lastUpdated": "2010-02-01T08:00:00.000Z",
+    "url": "http://thetechnologycouncil.com/content.aspx?MenuID=260"
+  },
+  "Roanoke Linux Users Group": {
+    "name": "Roanoke Linux Users Group",
+    "otherData": {
+      "meetup": "http://www.meetup.com/roalug/"
+    },
+    "lastUpdated": "2010-02-01T08:00:00.000Z",
+    "url": "http://www.meetup.com/roalug/"
+  },
+  "Roanoke Valley Sharepoint Users Group": {
+    "name": "Roanoke Valley Sharepoint Users Group",
+    "otherData": {},
+    "lastUpdated": "2010-02-01T08:00:00.000Z",
+    "url": "http://www.rvspug.org/"
+  },
+  "NewVa Adobe User Group": {
+    "name": "NewVa Adobe User Group",
+    "otherData": {
+      "on adobe": "http://newvaaug.groups.adobe.com/group/1106/join",
+      "on GGroup": "http://groups.google.com/group/newvaaug",
+      "contact": "<a href=\"http://twitter.com/ghoti143\">@ghoti143</a>"
+    },
+    "lastUpdated": "2010-02-01T08:00:00.000Z",
+    "url": "http://newvaaug.groups.adobe.com/"
+  },
+  "Roanoke Valley Personal Computer Club": {
+    "name": "Roanoke Valley Personal Computer Club",
+    "otherData": {
+      "date": "Meets second Saturday of the month, 9am"
+    },
+    "lastUpdated": "2010-02-01T08:00:00.000Z",
+    "url": "http://www.rvpcc.org/"
+  },
+  "Roanoke Hackers": {
+    "name": "Roanoke Hackers",
+    "otherData": {},
+    "lastUpdated": "2010-02-01T08:00:00.000Z",
+    "url": "http://www.meetup.com/RoanokeHackers/"
+  },
+  "Roanoke Robotics": {
+    "name": "Roanoke Robotics",
+    "otherData": {},
+    "lastUpdated": "2010-02-01T08:00:00.000Z",
+    "url": "http://www.meetup.com/Roanoke-Robotics/"
+  },
+  "Roanoke BarCamp": {
+    "name": "Roanoke BarCamp",
+    "otherData": {
+      "note": "There is no such group I know of at this time."
+    },
+    "lastUpdated": "2010-02-01T08:00:00.000Z"
+  },
+  "Roanoke PHP Users Group": {
+    "name": "Roanoke PHP Users Group",
+    "otherData": {
+      "note": "There is no such group I know of at this time."
+    },
+    "lastUpdated": "2010-02-01T08:00:00.000Z"
+  }
+}
