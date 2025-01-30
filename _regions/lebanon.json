@@ -1,0 +1,19 @@
+{
+  "name": "Lebanon",
+  "symbol": "x-lbn",
+  "milesAwayFromRoanoke": "156",
+  "GeeksSWVA": {
+    "name": "GeeksSWVA",
+    "otherData": {
+      "twitter": "http://twitter.com/geekswva"
+    },
+    "lastUpdated": "2010-02-01T08:00:00.000Z",
+    "url": "http://www.geekswva.com/"
+  },
+  "Geeksouth": {
+    "name": "Geeksouth",
+    "otherData": {},
+    "lastUpdated": "2010-02-01T08:00:00.000Z",
+    "url": "http://www.geeksouth.com/"
+  }
+}

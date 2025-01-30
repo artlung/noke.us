@@ -1,0 +1,40 @@
+{
+  "name": "Richmond",
+  "milesAwayFromRoanoke": "190",
+  "symbol": "ric",
+  "WordCampVA": {
+    "name": "WordCampVA",
+    "otherData": {
+      "twitter": "http://twitter.com/wordcamprva",
+      "date": "tentatively, October 16, 2010"
+    },
+    "lastUpdated": "2010-02-01T08:00:00.000Z",
+    "url": "http://wordcamprva.org/"
+  },
+  "Central Virginia Ruby Enthusiast's Group": {
+    "name": "Central Virginia Ruby Enthusiast's Group",
+    "otherData": {},
+    "lastUpdated": "2010-02-01T08:00:00.000Z",
+    "url": "http://www.cvreg.org/"
+  },
+  "Richmond Code Camp": {
+    "name": "Richmond Code Camp",
+    "otherData": {
+      "twitter": "http://twitter.com/CodeCamp"
+    },
+    "lastUpdated": "2010-02-01T08:00:00.000Z",
+    "url": "http://richmondcodecamp.org/"
+  },
+  "Richmond .NET User Group": {
+    "name": "Richmond .NET User Group",
+    "otherData": {},
+    "lastUpdated": "2010-02-01T08:00:00.000Z",
+    "url": "http://richmonddotnet.org/"
+  },
+  "Richmond Google Technology Users Group": {
+    "name": "Richmond Google Technology Users Group",
+    "otherData": {},
+    "lastUpdated": "2010-02-01T08:00:00.000Z",
+    "url": "http://rva.gtugs.org/"
+  }
+}

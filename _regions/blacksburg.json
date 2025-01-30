@@ -1,0 +1,59 @@
+{
+  "name": "Blacksburg",
+  "milesAwayFromRoanoke": "36",
+  "symbol": "bcb",
+  "blacksburg.rb (Ruby Users Group)": {
+    "name": "blacksburg.rb (Ruby Users Group)",
+    "otherData": {
+      "date": "Every 2nd Thursday of the month (7:00-9:00pm) at TechPad"
+    },
+    "lastUpdated": "2010-02-01T08:00:00.000Z",
+    "url": "https://groups.google.com/group/blacksburg_rb"
+  },
+  "Blacksburg Media Artists": {
+    "name": "Blacksburg Media Artists",
+    "otherData": {},
+    "lastUpdated": "2010-02-01T08:00:00.000Z",
+    "url": "http://www.meetup.com/Blacksburg-Media-Artists/"
+  },
+  "Virginia Tech Linux Users' Group (VTLUG)": {
+    "name": "Virginia Tech Linux Users' Group (VTLUG)",
+    "otherData": {},
+    "lastUpdated": "2010-02-01T08:00:00.000Z",
+    "url": "http://www.vtluug.org/"
+  },
+  "Tech & Toast": {
+    "name": "Tech & Toast",
+    "otherData": {
+      "date": "Monthly meeting of the NewVa Corridor Technology Council"
+    },
+    "lastUpdated": "2010-02-01T08:00:00.000Z",
+    "url": "http://www.thetechnologycouncil.com/toast"
+  },
+  "TechNite Awards Banquet": {
+    "name": "TechNite Awards Banquet",
+    "otherData": {},
+    "lastUpdated": "2010-02-01T08:00:00.000Z",
+    "url": "http://www.thetechnologycouncil.com/TechNite"
+  },
+  "VT KnowledgeWorks Business Acceleration Center": {
+    "name": "VT KnowledgeWorks Business Acceleration Center",
+    "otherData": {
+      "events-list": "http://www.vtknowledgeworks.com/event/calendar.html"
+    },
+    "lastUpdated": "2010-02-01T08:00:00.000Z",
+    "url": "http://www.vtknowledgeworks.com/"
+  },
+  "Virginia Tech Corporate Research Center": {
+    "name": "Virginia Tech Corporate Research Center",
+    "otherData": {},
+    "lastUpdated": "2010-02-01T08:00:00.000Z",
+    "url": "http://www.vtcrc.com/"
+  },
+  "Blacksburg Startup Meetup": {
+    "name": "Blacksburg Startup Meetup",
+    "otherData": {},
+    "lastUpdated": "2010-02-01T08:00:00.000Z",
+    "url": "http://www.meetup.com/BlacksburgTech/"
+  }
+}
