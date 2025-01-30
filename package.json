@@ -19,9 +19,9 @@
   },
   "homepage": "https://github.com/artlung/noke.us#readme",
   "dependencies": {
-    "axios": ">=1.6.0",
+    "axios": ">=1.7.4",
     "gray-matter": "^4.0.2",
-    "html-minifier": "^3.5.20",
+    "html-minifier": "^4.0.0",
     "javascript-stringify": "^2.0.0",
     "markdown-it": "^14.1.0"
   },
